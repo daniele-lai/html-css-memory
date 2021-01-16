@@ -27,13 +27,14 @@ h1 {
   height: 160px;
   width: 140px;
   margin: 10px 10px 10px 20px;
-  background-color: #fff;
   position: relative;
   border-radius: 5px;
   box-shadow: 2px 2px #ccc;
+  background-color: #fff;
 }
 
 .card.cover {
+  visibility: visible;
   background-image: url(../img/pattern.png);
   background-size: contain;
 }
@@ -49,7 +50,7 @@ h1 {
 }
 
 .air-balloon {
-  display: none;
+  visibility: hidden;
   height: 110px;
   width: 110px;
   background-image: url(../img/noun_air_balloon_3134741.png);
@@ -60,7 +61,7 @@ h1 {
 }
 
 .bicycle {
-  display: none;
+  visibility: hidden;
   height: 110px;
   width: 110px;
   background-image: url(../img/noun_Bicycle_3134821.png);
@@ -71,7 +72,7 @@ h1 {
 }
 
 .cruise-ship {
-  display: none;
+  visibility: hidden;
   height: 110px;
   width: 110px;
   background-image: url(../img/noun_Cruise_Ship_3134824.png);
@@ -82,7 +83,7 @@ h1 {
 }
 
 .submarine {
-  display: none;
+  visibility: hidden;
   height: 110px;
   width: 110px;
   background-image: url(../img/noun_Submarine_3134738.png);
@@ -93,7 +94,7 @@ h1 {
 }
 
 .tractor {
-  display: none;
+  visibility: hidden;
   height: 110px;
   width: 110px;
   background-image: url(../img/noun_Tractor_3134797.png);
@@ -104,7 +105,7 @@ h1 {
 }
 
 .tram {
-  display: none;
+  visibility: hidden;
   height: 110px;
   width: 110px;
   background-image: url(../img/noun_Tram_3134750.png);
@@ -123,12 +124,21 @@ h1 {
 }
 
 .card-text {
-  display: none;
+  visibility: hidden;
   position: absolute;
   left: 17px;
   top: 125px;
   font-family: 'Nerko One', cursive;
   color: #ff007f;
+}
+
+/* Effetto hover */
+.card.cover:hover {
+  visibility: hidden;
+}
+
+.card:hover div {
+  visibility: visible;
 }
 
 h1, h2 {
