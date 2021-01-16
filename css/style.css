@@ -19,13 +19,36 @@ h1 {
   margin: auto;
   height: 600px;
   width: 700px;
-  background-color: red;
 }
 
 .card {
   display: inline-block;
   height: 160px;
   width: 140px;
-  background-color: green;
   margin: 10px 10px 10px 20px;
+  background-color: #fff;
+  position: relative;
+}
+
+.card.cover {
+  background-image: url(../img/pattern.png);
+  background-size: contain;
+}
+
+.air-balloon {
+  height: 110px;
+  width: 110px;
+  background-image: url(../img/noun_air_balloon_3134741.png);
+  background-size: cover;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+}
+
+.card-text {
+  position: absolute;
+  left: 17px;
+  top: 125px;
+  font-family: 'Nerko One', cursive;
+  color: #ff007f;
 }
