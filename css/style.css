@@ -38,7 +38,7 @@ h1 {
   background-size: contain;
 }
 
-.air-balloon {
+.air-balloon_uncover {
   height: 110px;
   width: 110px;
   background-image: url(../img/noun_air_balloon_3134741.png);
@@ -48,7 +48,82 @@ h1 {
   top: 20px;
 }
 
+.air-balloon {
+  display: none;
+  height: 110px;
+  width: 110px;
+  background-image: url(../img/noun_air_balloon_3134741.png);
+  background-size: cover;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+}
+
+.bicycle {
+  display: none;
+  height: 110px;
+  width: 110px;
+  background-image: url(../img/noun_Bicycle_3134821.png);
+  background-size: cover;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+}
+
+.cruise-ship {
+  display: none;
+  height: 110px;
+  width: 110px;
+  background-image: url(../img/noun_Cruise_Ship_3134824.png);
+  background-size: cover;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+}
+
+.submarine {
+  display: none;
+  height: 110px;
+  width: 110px;
+  background-image: url(../img/noun_Submarine_3134738.png);
+  background-size: cover;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+}
+
+.tractor {
+  display: none;
+  height: 110px;
+  width: 110px;
+  background-image: url(../img/noun_Tractor_3134797.png);
+  background-size: cover;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+}
+
+.tram {
+  display: none;
+  height: 110px;
+  width: 110px;
+  background-image: url(../img/noun_Tram_3134750.png);
+  background-size: cover;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+}
+
+.card-text_uncover {
+  position: absolute;
+  left: 17px;
+  top: 125px;
+  font-family: 'Nerko One', cursive;
+  color: #ff007f;
+}
+
 .card-text {
+  display: none;
   position: absolute;
   left: 17px;
   top: 125px;
