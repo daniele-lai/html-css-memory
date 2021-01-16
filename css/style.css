@@ -30,6 +30,7 @@ h1 {
   position: relative;
   border-radius: 5px;
   box-shadow: 2px 2px #ccc;
+  background-color: #fff;
 }
 
 .card_uncover {
@@ -144,7 +145,7 @@ h1 {
 
 /* Effetto hover */
 .card.cover:hover {
-  visibility: hidden;
+  background-image: none;
 }
 
 .card:hover div {
