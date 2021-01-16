@@ -126,7 +126,7 @@ h1 {
 .card-text {
   visibility: hidden;
   position: absolute;
-  left: 17px;
+  left: 20px;
   top: 125px;
   font-family: 'Nerko One', cursive;
   color: #ff007f;
