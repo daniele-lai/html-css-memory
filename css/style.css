@@ -21,6 +21,7 @@ h1 {
   width: 700px;
 }
 
+/* Carte */
 .card {
   display: inline-block;
   height: 160px;
@@ -28,6 +29,8 @@ h1 {
   margin: 10px 10px 10px 20px;
   background-color: #fff;
   position: relative;
+  border-radius: 5px;
+  box-shadow: 2px 2px #ccc;
 }
 
 .card.cover {
@@ -51,4 +54,13 @@ h1 {
   top: 125px;
   font-family: 'Nerko One', cursive;
   color: #ff007f;
+}
+
+h1, h2 {
+  text-shadow: 1px 1px #ccc;
+}
+
+footer {
+  text-align: center;
+  font-family: 'Nerko One', cursive;
 }
