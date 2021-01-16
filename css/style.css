@@ -30,6 +30,16 @@ h1 {
   position: relative;
   border-radius: 5px;
   box-shadow: 2px 2px #ccc;
+}
+
+.card_uncover {
+  display: inline-block;
+  height: 160px;
+  width: 140px;
+  margin: 10px 10px 10px 20px;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 2px 2px #ccc;
   background-color: #fff;
 }
 
